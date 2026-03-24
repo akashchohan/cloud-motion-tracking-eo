@@ -34,3 +34,14 @@ Matplotlib
 - Test on satellite datasets (GOES / Meteosat)
 - Integrate with edge AI pipelines
 - Evaluate model performance on embedded hardware
+
+## Current Progress
+
+Initial prototype using OpenCV optical flow for detecting cloud displacement
+between satellite images.
+
+Next steps:
+
+- Compute wind vectors from displacement
+- Test with real satellite datasets (GOES / Meteosat)
+- Optimise for embedded edge hardware
